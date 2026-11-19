@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "marla-honeypot"
+version = "0.1.0"
+description = "MARLA Honeypot (Multi-Agent Reinforced Learning Adaptive Honeypot): pilot simulator and experiments"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Bek" }]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.22"]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.5"]
+dev = ["pytest>=7", "matplotlib>=3.5"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

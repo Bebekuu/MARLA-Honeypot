@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "MARLA Honeypot (Multi-Agent Reinforced Learning Adaptive Honeypot)"
+version: 0.1.0
+date-released: 2026-11-19
+license: MIT
+authors:
+  - name: "Bek"
+    affiliation: "Akita University"
+repository-code: "https://github.com/Bebekuu/MARLA-Honeypot"
+keywords:
+  - cyber deception
+  - honeypot
+  - multi-agent reinforcement learning
